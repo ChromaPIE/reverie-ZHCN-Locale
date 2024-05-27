@@ -2,236 +2,219 @@ return {
     descriptions = {
         Cine = {
             c_ive_no_shape_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}I Sing, I've No Shape",
-                    "after scoring more than {C:attention}X#1#{} of",
-                    "required Chips in {C:attention}#2# Blinds",
-                    "{C:inactive}(Currently {C:attention}#3#{C:inactive}/#2#)"
+                    "在{C:attention}#2#{}个{C:attention}盲注{}中获得",
+                    "超过最低要求{C:attention}#1#{}倍的得分后",
+                    "置换为{C:cine}《我无形，我歌唱》",
+                    "{C:inactive}（当前进度：{C:attention}#3#{C:inactive}/#2#）"
                 }
             },
             c_ive_no_shape = {
-                name = "I Sing, I've No Shape",
+                name = "《我无形，我歌唱》",
                 text = {
-                    "During this shop,",
-                    "only owned {C:attention}Jokers{} appear",
-                    "{C:red}+$#1#{} reroll cost"
+                    "在本次商店购买阶段",
+                    "仅会出现已拥有的{C:attention}小丑牌",
+                    "重掷花费{C:red}+$#1#"
                 }
             },
             c_unseen_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}The Unseen{}",
-                    "after having {C:attention}#1#{} empty",
-                    "{C:attention}Joker{} slot for {C:attention}#2#{} rounds",
-                    "{C:inactive}(Currently {C:attention}#3#{C:inactive}/#2#)"
+                    "将{C:attention}#1#{}个{C:attention}小丑牌{}槽位留空{C:attention}#2#{}回合后",
+                    "置换为{C:cine}《未见其形》",
+                    "{C:inactive}（当前进度：{C:attention}#3#{C:inactive}/#2#）"
                 }
             },
             c_unseen = {
-                name = "The Unseen",
+                name = "《未见其形》",
                 text = {
-                    "During this shop,",
-                    "all {C:attention}Jokers{} and {C:attention}consumables",
-                    "become {C:dark_edition}Negative",
-                    "{C:red}X#1#{} reroll cost",
-                    "{s:0.8}Rerolls cards"
+                    "在本次商店购买阶段",
+                    "所有{C:attention}小丑牌{}和{C:attention}消耗牌",
+                    "均变为{C:dark_edition}负片",
+                    "重掷花费{C:red}X#1#",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}卡牌{s:0.8}区"
                 }
             },
             c_gem_heist_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Gem Heist{}",
-                    "after selling",
-                    "{C:attention}#1# Editioned Jokers{}",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "售出{C:attention}#1#{}张带有{C:attention}版本{}的{C:attention}小丑牌{}后",
+                    "置换为{C:cine}《宝石大劫案》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_gem_heist = {
-                name = "Gem Heist",
+                name = "《宝石大劫案》",
                 text = {
-                    "During this shop,",
-                    "all cards become",
-                    "{C:dark_edition}Polychrome{} and {C:attention}25%{} off",
-                    "{s:0.8}Rerolls cards"
+                    "在本次商店购买阶段",
+                    "所有卡牌均变为{C:dark_edition}多彩{}且享有{C:attention}25%{}折扣",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}卡牌{s:0.8}区"
                 }
             },
             c_crazy_lucky_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Crazy Lucky{}",
-                    "after opening {C:attention}#1# Booster Packs",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    
+                    "开启{C:attention}#1#{}个补充包后",
+                    "置换为{C:cine}《疯狂豪赌王》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_crazy_lucky = {
-                name = "Crazy Lucky",
+                name = "《疯狂豪赌王》",
                 text = {
-                    "During this shop,",
-                    "everything becomes {C:attention}Pack",
-                    "{s:0.8}Rerolls {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "所有商品均变为{C:attention}卡包",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             },
             c_tag_or_die_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Tag or Die{}",
-                    "after skipping {C:attention}#1# Blinds",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "跳过{C:attention}#1#{}个盲注后",
+                    "置换为{C:cine}《特工灵灵签》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_tag_or_die = {
-                name = "Tag or Die",
+                name = "《特工灵灵签》",
                 text = {
-                    "During this shop,",
-                    "only {C:attention}Tags{} that",
-                    "cost {C:money}$#1#{} appear",
-                    "{s:0.8}Rerolls {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "仅会出现售价为{C:money}$#1#{}的{C:attention}标签",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             },
             c_let_it_moon_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Let It Moon{}",
-                    "after using {C:attention}#1# {C:planet}Planet",
-                    "or {C:tarot}Tarot{} cards",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "使用{C:attention}#1#{}张{C:planet}星球牌{}或{C:tarot}塔罗牌{}后",
+                    "置换为{C:cine}《逐月奇缘》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_let_it_moon = {
-                name = "Let It Moon",
+                name = "《逐月奇缘》",
                 text = {
-                    "During this shop,",
-                    "only {C:planet}Planet{} and",
-                    "{C:tarot}Tarot{} cards appear",
-                    "{s:0.8}Rerolls {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "仅会出现{C:planet}星球牌{}和{C:tarot}塔罗牌",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             },
             c_poker_face_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Poker Face{}",
-                    "after enhancing {C:attention}#1#",
-                    "{C:attention}Playing cards",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "增强{C:attention}#1#{}张{C:attention}游戏牌{}后",
+                    "置换为{C:cine}《扑克脸》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_poker_face = {
-                name = "Poker Face",
+                name = "《扑克脸》",
                 text = {
-                    "During this shop,",
-                    "only {C:attention}Playing cards",
-                    "from your deck appear",
-                    "{s:0.8}Rerolls {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "仅会出现牌组中的{C:attention}游戏牌",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             },
             c_eerie_inn_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Eerie Inn{}",
-                    "after destroying {C:attention}#1#{} cards",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "摧毁{C:attention}#1#{}张卡牌后",
+                    "置换为{C:cine}《怪诞旅馆》{}",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_eerie_inn = {
-                name = "Eerie Inn",
+                name = "《怪诞旅馆》",
                 text = {
-                    "During this shop,",
-                    "only {C:spectral}Spectral Packs",
-                    "appear",
-                    "{C:red}X#1#{} reroll cost",
-                    "{s:0.8}Rerolls {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "仅会出现{C:spectral}幻灵包",
+                    "重掷花费{C:red}X#1#",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             },
             c_adrifting_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Adrifting{}",
-                    "after playing {C:attention}#1# debuffed{}",
-                    "or {C:attention}faced down{} cards",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "打出{C:attention}#1#{}张{C:attention}失效",
+                    "或{C:attention}背面朝上{}的卡牌后",
+                    "置换为{C:cine}《海的那一边》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_adrifting = {
-                name = "Adrifting",
+                name = "《海的那一边》",
                 text = {
-                    "During this shop,",
-                    "everything is {C:attention}faced",
-                    "{C:attention}down{} and costs {C:money}$#1#",
-                    "{s:0.8}Rerolls cards and {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "所有商品均{C:attention}背面朝上{}且售价为{C:money}$#1#",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}卡牌{s:0.8}和{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             },
             c_morsel_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Morsel{}",
-                    "after getting {C:attention}#1#",
-                    "{C:attention}Food Jokers{}",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "获得{C:attention}#1#{}张{C:attention}食物小丑牌后",
+                    "置换为{C:cine}《浅尝》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_morsel = {
-                name = "Morsel",
+                name = "《浅尝》",
                 text = {
-                    "During this shop,",
-                    "only {C:attention}Food Jokers",
-                    "with {C:attention}doubled{} ability",
-                    "values appear",
-                    "{s:0.8}Rerolls {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "仅会出现能力数值{C:attention}翻倍{}的{C:attention}食物小丑牌",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             },
             c_alchemist_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Fool Metal",
-                    "{C:cine}Alchemist{} after using",
-                    "{C:attention}#1# {C:alchemical}Alchemical{} cards",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "使用{C:attention}#1#{}张{C:alchemical}炼金牌{}后",
+                    "置换为{C:cine}《钢之炼金咻师》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_alchemist = {
-                name = "Fool Metal Alchemist",
+                name = "《钢之炼金咻师》",
                 text = {
-                    "During this shop,",
-                    "{C:attention}+#1#{} consumable slot and",
-                    "only {C:alchemical}Alchemical{} cards appear",
-                    "{s:0.8}Rerolls {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "{C:attention}+#1#{}消耗牌槽位",
+                    "且仅会出现{C:alchemical}炼金牌",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             },
             c_every_hue_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Every Hue",
-                    "after using {C:attention}#1# {C:colourcard}Colour{} cards",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "使用{C:attention}#1#{}张{C:colourcard}色彩卡{}后",
+                    "置换为{C:cine}《斑斓》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_every_hue = {
-                name = "Every Hue",
+                name = "《斑斓》",
                 text = {
-                    "During this shop,",
-                    "only {C:colourcard}Colour{} cards that",
-                    "already have {C:attention}#1# rounds{}",
-                    "appear",
-                    "{s:0.8}Rerolls {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "仅会出现已累积",
+                    "{C:attention}#1#{}格进度的{C:colourcard}色彩卡",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             },
             c_radioactive_quest = {
-                name = "Exchange Coupon",
+                name = "观影兑换券",
                 text = {
-                    "Converts to {C:cine}Radioactive",
-                    "after getting {C:attention}#1#",
-                    "{C:attention}Fusion Joker",
-                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#1#)"
+                    "获得{C:attention}#1#{}张{C:attention}合体小丑牌{}后",
+                    "置换为{C:cine}《放射性物质》",
+                    "{C:inactive}（当前进度：{C:attention}#2#{C:inactive}/#1#）"
                 }
             },
             c_radioactive = {
-                name = "Radioactive",
+                name = "《放射性物质》",
                 text = {
-                    "During this shop,",
-                    "only {C:attention}Jokers{} that",
-                    "can be used in {C:attention}Fusions",
-                    "appear",
-                    "{s:0.8}Rerolls {s:0.8,C:attention}Booster Packs"
+                    "在本次商店购买阶段",
+                    "仅会出现可参与{C:attention}合体{}的{C:attention}小丑牌",
+                    "{s:0.8}重掷可生效于{s:0.8,C:attention}补充包{s:0.8}区"
                 }
             }
         },
@@ -267,12 +250,11 @@ return {
                 }
             },
             j_dynamic_film = {
-                name = "Dynamic Film",
+                name = "连像成影",
                 text = {
-                    "This Joker gains {C:chips}+#2#{} Chips",
-                    "every time an {C:cine}Exchange Coupon",
-                    "progresses",
-                    "{C:inactive}(Currently +{C:chips}#1#{C:inactive} Chips)"
+                    "{C:cine}观影兑换券{}进度提升时",
+                    "本牌获得{C:chips}+#2#{}筹码",
+                    "{C:inactive}（当前为{C:chips}+#1#{C:inactive}筹码）"
                 }
             }
         },
@@ -294,40 +276,39 @@ return {
         },
         Tag = {
             tag_cine = {
-                name = "Stub Tag",
+                name = "票根标签",
                 text = {
-                    "Gives a free",
-                    "{C:cine}Film Pack"
+                    "获得一个免费的",
+                    "{C:cine}影片包"
                 }
             },
             tag_tag = {
-                name = "Mark Tag",
+                name = "标签标签",
                 text = {
-                    "Gives a free",
-                    "{C:attention}Tag Pack"
+                    "获得一个免费的",
+                    "{C:attention}标签包"
                 }
             },
             tag_mega_tag = {
-                name = "Stamp Tag",
+                name = "标标签签",
                 text = {
-                    "Gives a free",
-                    "{C:attention}Jumbo Tag Pack"
+                    "获得一个免费的",
+                    "{C:attention}巨型标签包"
                 }
             }
         },
         Spectral = {
             c_reverie = {
-                name = "Reverie",
+                name = "白日幻梦",
                 text = {
-                    "Applies every",
-                    "{C:cine,E:1}Cine cards",
-                    "to this shop"
+                    "为当前商店应用",
+                    "所有的{C:cine,E:1}电影票{}效果"
                 }
             }
         },
         Voucher = {
             v_script = {
-                name = "Script",
+                name = "电影剧本",
                 text = {
                     "{C:attention}+#1#{} card slot",
                     "available in shop",
@@ -336,11 +317,10 @@ return {
                 }
             },
             v_megaphone = {
-                name = "Megaphone",
+                name = "片场大喇叭",
                 text = {
-                    "Requirements of",
-                    "{C:cine}Exchange Coupons{} are",
-                    "halved"
+                    "{C:cine}观影兑换券{}的",
+                    "进度要求减半"
                 }
             }
         },
@@ -375,18 +355,17 @@ return {
                 }
             },
             p_luxe_mega = {
-                name = "Mega Luxe Pack",
+                name = "超级精品包",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2# Vouchers"
+                    "从最多{C:attention}#2#{}张奖券中",
+                    "选择{C:attention}#1#{}张"
                 }
             },
             p_crazy_lucky = {
-                name = "Pack",
+                name = "卡包",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2# {C:attention,E:1}anything{} to add",
-                    "to your possession"
+                    "从最多{C:attention}#2#{}张{C:attention,E:1}任意{}卡牌中",
+                    "选择{C:attention}#1#{}张收入囊中"
                 }
             },
             p_adrifting = {
@@ -397,7 +376,7 @@ return {
                 }
             },
             p_film_normal = {
-                name = "Film Pack",
+                name = "影片包",
                 text = {
                     "Choose {C:attention}#1#{} of up to",
                     "{C:attention}#2#{} {C:cine}Exchange Coupon{} cards",
@@ -405,7 +384,7 @@ return {
                 }
             },
             p_film_jumbo = {
-                name = "Jumbo Film Pack",
+                name = "巨型影片包",
                 text = {
                     "Choose {C:attention}#1#{} of up to",
                     "{C:attention}#2# {C:cine}Exchange Coupon{} cards",
@@ -413,7 +392,7 @@ return {
                 }
             },
             p_film_mega = {
-                name = "Mega Film Pack",
+                name = "超级影片包",
                 text = {
                     "Choose {C:attention}#1#{} of up to",
                     "{C:attention}#2# {C:cine}Cine{} cards to add",
@@ -439,21 +418,21 @@ return {
                 }
             },
             morseled = {
-                name = "Morsel",
+                name = "《浅尝》",
                 text = {
-                    "Ability is {C:attention}doubled"
+                    "能力{C:attention}翻倍"
                 }
             },
         }
     },
     misc = {
         dictionary = {
-            k_cine = "Cine",
-            k_tag = "Tag",
-            k_tag_pack = "Tag Pack",
-            k_crazy_pack = "Pack",
-            k_film_pack = "Film Pack",
-            b_cine_cards = "Cine Cards"
+            k_cine = "电影",
+            k_tag = "标签",
+            k_tag_pack = "标签包",
+            k_crazy_pack = "“卡包”",
+            k_film_pack = "影片包",
+            b_cine_cards = "电影票"
         }
     }
 }, {
